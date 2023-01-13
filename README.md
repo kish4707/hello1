@@ -1,4 +1,4 @@
 # hello-world
 First repository project
 
-System.out.println("반갑습니다.")
+도전이 없는 성공보다 도전이 있는 실패가 더 값지다.
