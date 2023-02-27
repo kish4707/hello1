@@ -1,2 +1,2 @@
 # hello-world
-First repository project%%%%%%%%%%%%%%%
+First repository project
