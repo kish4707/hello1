@@ -1,18 +1,30 @@
-Markdown에 오신 것을 환영합니다.<br>
-<strong>현재를 지혜롭게 즐기세요.</strong><br>
-<p>당신은 오늘 무엇을 할 것인가요?</p>
-<input type="text"/><br/>
-<a href="https://daum.net">다음</a><br>
-<img src="images/sample01.jpg" width="100px"/><br>
-<input type="email" value="이메일"/><br>
-<input type="url" value="웹주소"/><br>
-<input type="button" value="버튼"/><br>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>histStart</title>
+</head>
+<body>
+<h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;한국사<h3>
 
-<input type="file" accept="image/*"/><br>
-<input type="file" accept="audio/*"/><br>
-<input type="file" accept="video/*"/><br>
-<input type="file" accept=".jpg, .png, .pdf"/><br>
+<table border="2" width="1200" height="400">
+<tr>
+	<td><img src="/histStudyPics/${studyNum}.png" width="${500}" height="${400}"/></td>
+	<td style="vertical-align:top" width="700" height="400"><br>
+		&nbsp;&nbsp; # 한국사<br><br>
+		&nbsp;&nbsp; 1. 소개<br><br>
+		&nbsp;&nbsp; 2. 고대, 중세 역사<br><br>
+		&nbsp;&nbsp; 3. 근대사</td>
+</tr>
+</table><br>
 
-<form action="https://naver.com">
-<input type="submit"/>
+<form action="/hist/choice">
+&nbsp;&nbsp;&nbsp;
+<input type="submit" value="학습" name="study">
+&nbsp;&nbsp;&nbsp;
+<input type="submit" value="시험" name="test">
 </form>
+
+</body>
+</html>
