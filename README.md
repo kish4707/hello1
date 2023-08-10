@@ -7,3 +7,7 @@ Markdown에 오신 것을 환영합니다.<br>
 <input type="email"/>
 <input type="url"/>
 <input type="button" value="버튼"/>
+
+<form action="https://naver.com">
+<input type="submit"/>
+</form>
