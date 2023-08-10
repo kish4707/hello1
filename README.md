@@ -1,4 +1,1 @@
-<html>
-  <head></head>
-  <body>웹프론트엔드 개발을 시작합니다.</body>
-</html>
+Markdown에 오시 것을 환영합니다.
