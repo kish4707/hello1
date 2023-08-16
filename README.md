@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>마크다운입니다.</title>
+마크다운입니다.
 </head>
 <body>
 
